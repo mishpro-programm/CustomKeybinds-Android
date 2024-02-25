@@ -38,6 +38,7 @@ jobs:
           combine: true
           target: ${{ matrix.config.target }}
           sdk: nightly
+          bindings: mishpro-programm/ck-bindings
       
   package:
     name: Package builds
